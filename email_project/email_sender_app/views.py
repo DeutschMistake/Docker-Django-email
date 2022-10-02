@@ -25,17 +25,17 @@ def index(request):
         'email_sender_app/message.html',
         {
             # TODO: Enter the recipient name
-            'name': 'Recipient Name',
+            'name': 'nikolyfrolovv@yandex.ru',
             # TODO:  Update with your own body
-            'body': 'This email is to verify whether we can send email in Django from Gmail account.',
+            'body': 'frolovchick@gmail.com',
             # TODO: Update the signature
             'sign': 'Sender',
         })
     send_mail(
         'Congratulations!',
         'You are lucky to receive this mail.',
-        'from@example.com',  # TODO: Update this with your mail id
-        ['to@example.com'],  # TODO: Update this with the recipients mail id
+        'frolovchick@gmail.com',  # TODO: Update this with your mail id
+        ['nikolyfrolovvv@yandex.ru'],  # TODO: Update this with the recipients mail id
         html_message=html_message,
         fail_silently=False,
     )

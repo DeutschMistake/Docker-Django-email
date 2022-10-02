@@ -24,7 +24,7 @@ SECRET_KEY = 'hvix&g1a(f_o3=)kw!p!72o!3n(cm1-gv!z!&=k_mx+%qh7$$h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['monitoring']
 
 # Application definition
 
@@ -117,8 +117,8 @@ STATIC_URL = '/static/'
 # EMAIL Related
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = 'yourmail@gmail.com'  # TODO: Your email
+EMAIL_HOST_USER = 'frolovchick@gmail.com'  # TODO: Your email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = ''  # TODO: Give APP Password here
+EMAIL_HOST_PASSWORD = '123'  # TODO: Give APP Password here
 EMAIL_USE_TLS = True
